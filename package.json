@@ -1,0 +1,10 @@
+{
+  "name": "box2d",
+  "version": "0.0.1",
+  "description": "box2d on a server",
+  "dependencies": {
+    "box2dweb-commonjs": "^2.1.0",
+    "express": "^4.15.2",
+    "socket.io": "^2.0.4"
+  }
+}

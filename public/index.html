@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html>
+    <head>
+    <title>Pacman</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/easeljs-0.8.2.min.js"></script>
+    <script src="js/preloadjs-0.6.2.combined.js"></script>
+    </head> 
+  <body>
+      <audio id='shoot' src="assets/sounds/Laser%20Blaster-SoundBible.com-1388608841.mp3"></audio>
+      <div id="username">
+          Enter username <br />
+          ---------------- <br />
+         <input id="name" />
+         <button id="ok">Accept</button> 
+      </div>
+      <div id="waiting"></div>
+      <div id="viewport" hidden>
+        <canvas id="main" height="1000" width="1000"></canvas>
+      </div>
+      <ul id="ui" hidden>
+        
+      </ul>
+  </body>
+</html>
