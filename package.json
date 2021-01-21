@@ -5,6 +5,6 @@
   "dependencies": {
     "box2dweb-commonjs": "^2.1.0",
     "express": "^4.15.2",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   }
 }
